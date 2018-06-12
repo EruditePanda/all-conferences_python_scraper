@@ -4,8 +4,8 @@ import lxml.html
 import re
 from dateutil import parser
 
-#Load the html of the All Conferences physics page
-html = scraperwiki.scrape("http://www.allconferences.com/search/index/Category__parent_id:440828/showLastConference:0/") 
+#Load the html of the All Conferences US page
+html = scraperwiki.scrape("http://www.allconferences.com/search/index/Category__parent_id:1/Venue__country:United%20States/showLastConference:0/") 
 
 print html
 
